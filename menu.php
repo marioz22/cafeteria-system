@@ -26,7 +26,8 @@
 
     <!-- Bootstrap core CSS-->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <!-- Goldish Theme CSS -->
+    <link href="bootstrap/css/gold-theme.css" rel="stylesheet">
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
@@ -40,62 +41,53 @@
 
   <body id="page-top">
 
-    <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
-
-      <a class="navbar-brand mr-1" href="index.php">Food Ordering System</a>
-
+    <nav class="navbar navbar-expand navbar-dark bg-dark static-top" style="background: var(--gold-dark) !important;">
+      <a class="navbar-brand mr-1" href="index.php" style="color: var(--gold); font-weight: bold;">Cafeteria System</a>
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
       </button>
-
       <!-- Navbar -->
       <ul class="navbar-nav ml-auto ml-md-0">
         <li class="nav-item dropdown no-arrow">
-          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: var(--gold);">
             <i class="fas fa-user-circle fa-fw"></i>
           </a>
         </li>
       </ul>
-
     </nav>
 
     <div id="wrapper">
 
       <!------------------ Sidebar ------------------->
-      <ul class="sidebar navbar-nav">
+      <ul class="sidebar navbar-nav" style="background: var(--gold-dark);">
         <li class="nav-item">
-          <a class="nav-link" href="index.php">
+          <a class="nav-link" href="index.php" style="color: var(--white);">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span>
           </a>
         </li>
-
-        
         <li class="nav-item">
-          <a class="nav-link" href="menu.php">
+          <a class="nav-link" href="menu.php" style="color: var(--white);">
             <i class="fas fa-fw fa-utensils"></i>
             <span>Menu</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="sales.php">
+          <a class="nav-link" href="sales.php" style="color: var(--white);">
             <i class="fas fa-fw fa-chart-area"></i>
             <span>Sales</span></a>
         </li>
-
         <li class="nav-item">
-          <a class="nav-link" href="staff.php">
+          <a class="nav-link" href="staff.php" style="color: var(--white);">
             <i class="fas fa-fw fa-user-circle"></i>
             <span>Staff</span>
           </a>
         </li>
-
         <li class="nav-item">
-          <a class="nav-link" href="#" data-toggle="modal" data-target="#logoutModal">
+          <a class="nav-link" href="#" data-toggle="modal" data-target="#logoutModal" style="color: var(--white);">
             <i class="fas fa-fw fa-power-off"></i>
             <span>Logout</span>
           </a>
         </li>
-
       </ul>
 
       <div id="content-wrapper">
